@@ -16,7 +16,7 @@
 ### 通过 HACS（推荐）
 1. 在 HACS 中添加自定义仓库：
    - 点击 HACS → 集成 → 右上角菜单 → 自定义仓库
-   - 输入你的 GitHub 仓库地址（例如 `https://github.com/quanxiumei-maker/rishun-ha`）
+   - `https://github.com/quanxiumei-maker/rishun-ha`
    - 类别选择“集成”
 2. 点击“安装”即可。
 
