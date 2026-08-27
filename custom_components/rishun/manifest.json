@@ -1,0 +1,14 @@
+{
+  "domain": "rishun",
+  "name": "日顺智能",
+  "version": "2026.8.19",
+  "config_flow": true,
+  "documentation": "",
+  "icon": "logo.png",
+  "requirements": [
+    "rishun-api==0.1.0"
+  ],
+  "dependencies": [],
+  "codeowners": ["@rishun"],
+  "iot_class": "cloud_polling"
+}

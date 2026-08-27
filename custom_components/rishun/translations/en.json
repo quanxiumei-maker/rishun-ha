@@ -1,0 +1,35 @@
+{
+    "title": "Rishun Smart",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Account Login",
+                "description": "Enter your cloud account credentials to fetch device list.",
+                "data": {
+                    "phone": "Phone Number",
+                    "password": "Password"
+                }
+            },
+            "house_select": {
+                "title": "Select House",
+                "description": "Multiple houses found under your account. Please select one.",
+                "data": {
+                    "house_id": "House"
+                }
+            },
+            "finish": {
+                "title": "Configuration Complete",
+                "description": "Found {device_count} device(s). Set the status update interval below.",
+                "data": {
+                    "scan_interval": "Update Interval (seconds)"
+                }
+            }
+        },
+        "error": {
+            "base": "Operation failed, please check your network or credentials.",
+            "invalid_auth": "Invalid phone number or password.",
+            "no_houses": "No houses found under this account.",
+            "no_devices": "No available devices found in this house."
+        }
+    }
+}

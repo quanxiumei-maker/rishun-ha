@@ -1,0 +1,7 @@
+{
+  "name": "日顺智能",
+  "domains": ["rishun"],
+  "country": "CN",
+  "homeassistant": "2026.8.2",
+  "render_readme": true
+}

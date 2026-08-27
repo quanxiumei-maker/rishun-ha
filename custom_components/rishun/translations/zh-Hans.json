@@ -1,0 +1,35 @@
+{
+    "title": "日顺智能",
+    "config": {
+        "step": {
+            "user": {
+                "title": "账号登录",
+                "description": "请输入您的云端账号和密码，以获取设备列表。",
+                "data": {
+                    "phone": "手机号",
+                    "password": "密码"
+                }
+            },
+            "house_select": {
+                "title": "选择房屋",
+                "description": "您的账号下有多个房屋，请选择需要添加设备的房屋。",
+                "data": {
+                    "house_id": "房屋"
+                }
+            },
+            "finish": {
+                "title": "配置完成",
+                "description": "已找到 {device_count} 个设备，请设置状态更新间隔（秒）。",
+                "data": {
+                    "scan_interval": "状态更新间隔（秒）"
+                }
+            }
+        },
+        "error": {
+            "base": "操作失败，请检查网络或账号信息。",
+            "invalid_auth": "手机号或密码错误。",
+            "no_houses": "该账号下没有关联的房屋。",
+            "no_devices": "该房屋下没有可用的设备。"
+        }
+    }
+}
